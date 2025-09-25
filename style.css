@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    padding: 30px 0px 0px 0px;
+}
+#search{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background: #f4f4f4;
+}
+
+#search #searchByIngredients{
+    width: 50%;
+    margin: 20px auto 10px;
+    padding: 10px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+}
+#searchByIngredients:hover{
+    background-color: #ADFF2F;
+}
+
+#searchByMeal:hover{
+    background-color: #ADFF2F;
+}
+#search #searchByMeal{
+    width: 50%;
+    margin: 3px;
+    padding: 10px;
+    margin: 0px auto 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#search #input{
+    width: 50%;
+    margin: 3px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    display: none;
+}
+#search #btn{
+    width: 20%;
+    margin: 3px;
+    padding: 10px;
+    margin: 10px auto 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    display: none;
+    justify-content: center;
+}
+#btn:hover{
+    background-color: #006241;
+    color: #f4f4f4;
+}
+#listOfMeals{
+    display: none;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto 30px;
+    border-top: 2px solid black;
+}
+#listOfMeals h3{
+    margin: 20px auto 10px;
+}
+#mealLists {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 50px;
+    width: 100%;         /* take full available width */
+    max-width: 1100px;    /* optional, keeps layout neat */
+    margin: auto;
+    padding: 20px;
+    list-style: none;    /* remove default list dots */
+}
+
+#mealLists li {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#mealLists img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+#mealLists h5 {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin: 10px auto 10px;
+    font-size: 20px;
+}
+#recipeOfMeals{
+    display: none;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto 30px;
+    border-top: 2px solid black;
+}
+#recipe{
+    background: #f4f4f4;
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto 30px;
+    list-style: none;    /* remove default list dots */
+}
+#mealDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 20px;
+    width: 100%;
+    height: auto;
+}
+#mealDetails #mealImg{
+    width:250px;
+    margin: 30px auto 30px;
+    border-radius: 10px;
+    border: 2px solid #ADFF2F;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#MealN{
+    background: #006241;
+    padding:10px 30px;
+    color: white;
+    border-radius: 10px;
+    margin: 10px auto 20px;
+}
+#mealDetails #inst{
+    margin: 20px auto 20px;
+    width:80%;
+    border: 1.5px solid #006241;
+    padding: 20px 20px;
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+}
+#head{
+    background: #006241;
+    padding:10px 20px;
+    color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
