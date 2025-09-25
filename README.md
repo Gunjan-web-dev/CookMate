@@ -74,12 +74,12 @@ Follow these steps to run the project locally:
 
 Clone this repository:
 
-git clone https://github.com/your-username/mealfinder.git
+git clone https://github.com/Gunjan-web-dev/CookMate.git
 
 
 Navigate into the project folder:
 
-cd mealfinder
+cd CookMate
 
 
 Open index.html in your browser.
