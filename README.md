@@ -21,7 +21,7 @@ It fetches real-time recipe data using the free TheMealDB API  and displays resu
 🚀 Demo
 
 🔗 Live Demo Link
- (Add your GitHub Pages or Netlify link here once hosted)
+ https://gunjan-web-dev.github.io/CookMate/
 
 📂 Project Structure
 MealFinder/
